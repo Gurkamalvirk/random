@@ -13,6 +13,14 @@ const projects = [
     featured: true,
   },
   {
+    title: 'PDF Text Editor',
+    repo: 'PDF-editor-Desktop-application',
+    href: 'https://github.com/Gurkamalvirk/PDF-editor-Desktop-application',
+    description: 'A local-first Windows desktop application for opening PDFs, selecting visible text, editing it in place, preserving detected font styling, undo/redo, zoom and safe PDF export.',
+    tech: ['C#', '.NET', 'WPF', 'PDFium'],
+    featured: true,
+  },
+  {
     title: 'Web Chat App',
     repo: 'webChat_App',
     href: 'https://github.com/Gurkamalvirk/webChat_App',
@@ -50,10 +58,10 @@ const projects = [
 ];
 
 const skillGroups = [
-  { icon: Code2, title: 'Languages', skills: ['C++', 'Java', 'Python', 'JavaScript', 'SQL'] },
+  { icon: Code2, title: 'Languages', skills: ['C++', 'C#', 'Java', 'Python', 'JavaScript', 'SQL'] },
   { icon: Server, title: 'Web & Backend', skills: ['React', 'Node.js', 'Flask', 'REST APIs'] },
   { icon: Database, title: 'Data', skills: ['MySQL', 'MongoDB', 'Database Design'] },
-  { icon: Terminal, title: 'Tools', skills: ['Git', 'GitHub', 'Linux', 'VS Code'] },
+  { icon: Terminal, title: 'Tools', skills: ['Git', 'GitHub', 'Linux', 'VS Code', '.NET', 'WPF'] },
 ];
 
 function App() {
@@ -99,7 +107,7 @@ function App() {
             <p className="kicker">COMPUTER SCIENCE UNDERGRADUATE · SOFTWARE DEVELOPER</p>
             <h1>Gurkamal<br /><span>Singh.</span></h1>
             <p className="hero-line">I {typed}<span className="cursor">▌</span></p>
-            <p className="hero-sub">I enjoy turning ideas into working software — from AI-powered applications and web systems to Java, backend and database projects.</p>
+            <p className="hero-sub">I enjoy turning ideas into working software — from AI-powered applications and full-stack systems to Windows desktop software, Java, backend and database projects.</p>
             <div className="hero-actions">
               <button className="primary-btn" onClick={() => go('projects')}>Explore projects <ArrowUpRight size={17} /></button>
               <a className="ghost-btn" href="https://github.com/Gurkamalvirk" target="_blank" rel="noreferrer"><Github size={18} /> GitHub</a>
@@ -112,7 +120,7 @@ function App() {
               <p><span className="green">$</span> whoami</p>
               <p className="output">Gurkamal Singh</p>
               <p><span className="green">$</span> cat focus.txt</p>
-              <p className="output">AI · Full Stack · Java · Databases</p>
+              <p className="output">AI · Full Stack · Desktop/.NET · Java · Databases</p>
               <p><span className="green">$</span> git status</p>
               <p className="output">On branch: building-things</p>
               <p className="output">Your portfolio is up to date.</p>
@@ -123,7 +131,7 @@ function App() {
 
         <section className="stats-strip">
           <div><strong>20+</strong><span>GitHub repositories</span></div>
-          <div><strong>6</strong><span>featured projects</span></div>
+          <div><strong>7</strong><span>featured projects</span></div>
           <div><strong>5+</strong><span>core technologies</span></div>
           <div><strong>2027</strong><span>graduation track</span></div>
         </section>
@@ -134,7 +142,7 @@ function App() {
             <h2>Curious by default.<br/>Builder by choice.</h2>
           </div>
           <div className="about-copy">
-            <p>I’m a Computer Science undergraduate focused on learning by building. My GitHub is a mix of academic work, experiments and practical projects across AI, full-stack development, Java and databases.</p>
+            <p>I’m a Computer Science undergraduate focused on learning by building. My GitHub is a mix of academic work, experiments and practical projects across AI, full-stack development, Windows desktop software, Java and databases.</p>
             <p>I care about clean interfaces, understandable code and turning coursework into real systems that can actually be demonstrated.</p>
             <div className="about-grid">
               <div><span>Currently</span><b>Undergraduate</b></div>
