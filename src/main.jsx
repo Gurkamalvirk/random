@@ -5,6 +5,14 @@ import './styles.css';
 
 const projects = [
   {
+    title: 'CarePath',
+    repo: 'Carepath',
+    href: 'https://carepath-sage.vercel.app/',
+    description: 'A full-stack AI healthcare platform with symptom analysis, doctor discovery, consultation booking, and secure account-based consultation storage.',
+    tech: ['Next.js', 'MongoDB', 'Gemini API', 'Vercel'],
+    featured: true,
+  },
+  {
     title: 'AI Chatbot',
     repo: 'ai-chat-bot-trial-1',
     href: 'https://github.com/Gurkamalvirk/ai-chat-bot-trial-1',
@@ -131,7 +139,7 @@ function App() {
 
         <section className="stats-strip">
           <div><strong>20+</strong><span>GitHub repositories</span></div>
-          <div><strong>7</strong><span>featured projects</span></div>
+          <div><strong>8</strong><span>featured projects</span></div>
           <div><strong>5+</strong><span>core technologies</span></div>
           <div><strong>2027</strong><span>graduation track</span></div>
         </section>
